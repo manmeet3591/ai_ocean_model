@@ -40,4 +40,7 @@ Levels: 5, 15, 25, 35, 45, 55, 65, 75, 85, 95, 105, 115, 125, 135, 145, 155, 165
 
 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 231, 250, 282, 334, 412, 521, 665, 848, 1071, 1336, 1643, 1990, 2376, 2797, 3249, 3727, 4225, 4736 m depth (for geometric vertical velocity only).
 
+Are there nan values in the data ?
+
+At level = 0 which is 5 m depth, numpy is able to identify 45352 nan values using `print(np.sum(np.isnan(ds.isel(level=0).salinity.values)))`
 
