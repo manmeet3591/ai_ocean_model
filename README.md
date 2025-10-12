@@ -44,3 +44,11 @@ Are there nan values in the data ?
 
 At level = 0 which is 5 m depth, numpy is able to identify 45352 nan values using `print(np.sum(np.isnan(ds.isel(level=0).salinity.values)))`
 
+How should normalization be done ?
+
+I think normalization should be done with absolute min max / mean std values for the entire 3d array to preserve the vertical structure in the normlized space, but the papers on AI atmosphere and other papers treat each level as a separate variable, but we should try the idea of entire min max for normalization 
+
+How should we treat the nan values in the data ? 
+
+The nan values can be treated by (i) inputting large values that are not represented in the data, but that can have a tendency to pollute the coastal values, (ii) Ola model uses the coast to coast linear interpolation, (iii) We have used bilinear interpolation in the land model, lets try and go with it in the AI ocean model as well.
+
