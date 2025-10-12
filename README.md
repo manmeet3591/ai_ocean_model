@@ -52,3 +52,21 @@ How should we treat the nan values in the data ?
 
 The nan values can be treated by (i) inputting large values that are not represented in the data, but that can have a tendency to pollute the coastal values, (ii) Ola model uses the coast to coast linear interpolation, (iii) We have used bilinear interpolation in the land model, lets try and go with it in the AI ocean model as well.
 
+What are the vertical levels used by Ola paper ?
+
+Ocean Depth: Potential temperature at the following depths in meters: [0.5, 9.8, 47.3, 97.2, 200.3, 301.7 ]
+
+So what are the levels that we will use the data at ?
+
+If your target is seasonal skill / ENSO
+
+Stay focused on the upper ~300 m—that’s what Ola modeled and where most seasonal predictability resides. Either of the two sets above is appropriate; start with Ola-mimic-6 for simplicity, or Ola-plus-8 if your memory budget allows. 
+arXiv
+
+If you care about deeper heat content/decadal signals later
+
+Add a sparse tail below 300 m, e.g. [459, 747, 1193, 1807] m, to capture deeper thermocline/intermediate waters—still keeping the upper-ocean dense. 
+
+Levels that we will use : : [5, 15, 25, 45, 95, 155, 205, 303] m.
+
+Indices these correspond to: 0, 1, 2, 4, 9, 15, 20, 25
