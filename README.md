@@ -31,13 +31,13 @@ Data variables:
 
 What are the different vertical levels of GODAS ?
 
-Temporal Coverage
-Monthly values for 1980/01 - 2025/08
-Spatial Coverage
-0.333 degree latitude x 1.0 degree longitude global grid (418x360)
+Temporal Coverage: Monthly values for 1980/01 - 2025/08
+
+Spatial Coverage: 0.333 degree latitude x 1.0 degree longitude global grid (418x360)
 74.5S - 64.5N, 0.5E - 359.5E
-Levels
-5, 15, 25, 35, 45, 55, 65, 75, 85, 95, 105, 115, 125, 135, 145, 155, 165, 175, 185, 195, 205, 215, 225, 238, 262, 303, 366, 459, 584, 747, 949, 1193, 1479, 1807, 2174, 2579, 3016, 3483, 3972, 4478 m depth.
+
+Levels: 5, 15, 25, 35, 45, 55, 65, 75, 85, 95, 105, 115, 125, 135, 145, 155, 165, 175, 185, 195, 205, 215, 225, 238, 262, 303, 366, 459, 584, 747, 949, 1193, 1479, 1807, 2174, 2579, 3016, 3483, 3972, 4478 m depth.
+
 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 231, 250, 282, 334, 412, 521, 665, 848, 1071, 1336, 1643, 1990, 2376, 2797, 3249, 3727, 4225, 4736 m depth (for geometric vertical velocity only).
 
 
