@@ -1,0 +1,7 @@
+{
+  "dataset": "ERA5",
+  "logical": "sw_down",
+  "long_name": "surface_solar_radiation_downwards",
+  "min": -6.0,
+  "max": 4890880.0
+}

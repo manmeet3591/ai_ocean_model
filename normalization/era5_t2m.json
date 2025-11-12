@@ -1,0 +1,7 @@
+{
+  "dataset": "ERA5",
+  "logical": "t2m",
+  "long_name": "2m_temperature",
+  "min": 188.02320861816406,
+  "max": 326.905517578125
+}

@@ -1,0 +1,7 @@
+{
+  "dataset": "ERA5",
+  "logical": "q2m",
+  "long_name": "2m_dewpoint_temperature",
+  "min": 184.50535583496094,
+  "max": 307.1726989746094
+}

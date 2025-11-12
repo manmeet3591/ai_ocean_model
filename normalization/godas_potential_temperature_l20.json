@@ -1,0 +1,7 @@
+{
+  "dataset": "GODAS",
+  "variable": "potential_temperature",
+  "level_index": 20,
+  "min": 269.96,
+  "max": 301.5530625
+}

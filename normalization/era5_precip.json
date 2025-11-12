@@ -1,0 +1,7 @@
+{
+  "dataset": "ERA5",
+  "logical": "precip",
+  "long_name": "total_precipitation",
+  "min": -3.725290298461914e-09,
+  "max": 0.10059547424316406
+}

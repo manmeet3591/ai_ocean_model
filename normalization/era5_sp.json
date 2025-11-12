@@ -1,0 +1,7 @@
+{
+  "dataset": "ERA5",
+  "logical": "sp",
+  "long_name": "surface_pressure",
+  "min": 47009.984375,
+  "max": 107252.375
+}

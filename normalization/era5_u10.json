@@ -1,0 +1,7 @@
+{
+  "dataset": "ERA5",
+  "logical": "u10",
+  "long_name": "10m_u_component_of_wind",
+  "min": -281.12353515625,
+  "max": 132.54061889648438
+}

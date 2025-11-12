@@ -1,0 +1,7 @@
+{
+  "dataset": "ERA5",
+  "logical": "lw_down",
+  "long_name": "surface_thermal_radiation_downwards",
+  "min": 111785.375,
+  "max": 1986243.0
+}
