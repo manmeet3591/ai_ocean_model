@@ -70,3 +70,12 @@ Add a sparse tail below 300 m, e.g. [459, 747, 1193, 1807] m, to capture deeper 
 Levels that we will use : : [5, 15, 25, 45, 95, 155, 205, 303] m.
 
 Indices these correspond to: 0, 1, 2, 4, 9, 15, 20, 25
+
+## 📅 Example of GODAS Pentad Timestamps
+
+| Pentad   | Days Covered  | Timestamp Shown in GODAS |
+|----------|----------------|---------------------------|
+| Pentad 1 | Jan 1–5       | Jan 5                     |
+| Pentad 2 | Jan 6–10      | Jan 10                    |
+| Pentad 3 | Jan 11–15     | Jan 15                    |
+| Pentad 4 | Jan 16–20     | Jan 20                    |
